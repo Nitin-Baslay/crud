@@ -1,0 +1,54 @@
+.renderdata {
+  border-bottom: 5px solid black;
+  border-radius: 10px;
+  width: 80vw;
+  margin: auto;
+  margin-top: 10px;
+}
+.master {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightcyan;
+}
+.get {
+  border: none;
+  background-color: lightpink;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.btn1,
+.btn2,
+.btnsub {
+  background-color: lightgreen;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 15px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.btn2 {
+  margin-left: 50px;
+}
+button:active {
+  background-color: lightskyblue;
+}
+.update {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  border-radius: 10px;
+  height: 30px;
+  width: 400px;
+}
+.btnsub {
+  margin-left: 20px;
+  margin-top: 1px;
+}
